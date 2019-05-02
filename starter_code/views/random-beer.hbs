@@ -1,4 +1,7 @@
 <div class="random-beer-container">
-      
-      {{> beerPartial}}
+     {{#each beers}}
+            <div class="beer-wrapper">
+            {{> beerPartial}}
+            </div>
+      {{/each}}
 </div>
